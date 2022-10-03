@@ -124,3 +124,6 @@
     font-size:  5rem;
     margin: 2.5rem;
 }
+#get-started a{
+    color: inherit;
+}

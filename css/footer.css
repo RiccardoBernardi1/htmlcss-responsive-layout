@@ -1,0 +1,16 @@
+footer{
+    background-color: #333333;
+    padding: 2.8125rem 0;
+}
+.container-xs{
+    max-width: 26.25rem;
+    margin: auto;
+    color: white;
+    text-align: center;
+}
+.container-xs div{
+    margin: 4.375rem .9375rem 0;
+}
+.container-xs a{
+    color: #8D88D3;
+}
