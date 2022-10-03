@@ -19,7 +19,7 @@
         width: calc((100% / 3)*2);
     }
 }
-/* sezione STRATEGIC*/
+/* sezione STRATEGIC */
 #strategic{
     background-color: var(--first-color);
 }
@@ -43,4 +43,18 @@
     #strategic .col-right{
        width: 30% ;
     }
+}
+/* sezione PARTNERS */
+#partners h2{
+    color: var(--first-color);
+}
+#partners .card{
+    background-color: var(--first-color);
+    margin-top: 1.875rem;
+}
+.cards-text{
+    text-align: center;
+}
+.cards-text>*{
+    margin-bottom: 2.8125rem;
 }
