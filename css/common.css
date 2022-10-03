@@ -16,3 +16,12 @@ section{
     display: flex;
     flex-wrap: wrap;
 }
+/* BUTTONS */
+.btn{
+    border-radius: 3.125rem;
+}
+.primary-btn{
+    padding: .9375rem 2.8125rem;
+    color: white;
+    font-weight: bold;
+}

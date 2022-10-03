@@ -2,15 +2,48 @@
 #highlights .col{
     width: 100%;
     padding: .625rem;    
+    text-align: center;
+    padding: .8125rem .9375rem ;    
 }
 #highlights .row{
     margin-left: -0.625rem;
     margin-right: -0.625rem;
 }
 .card{
-    height: 400px;
     background-color: var(--third-color);
+    height: 100%;
+    border-radius: 1.25rem;
+    padding: 2.1875rem ;
 }
+#highlights .card > i{
+    color:var(--second-color) ;
+    font-size: 5.3125rem;
+    margin-bottom: 2.1875rem;
+}
+#highlights h3{
+    color: var(--second-color);
+    margin-bottom: 2.1875rem;
+    font-size: 1.375rem;
+}
+#highlights .primary-btn{
+    text-decoration: none;
+    background-color: var(--second-color);
+}
+.fix-padding{
+    padding-bottom: 3.125rem ;
+}
+#highlights .card img{
+    margin-top: 3.125rem;
+    width: 85%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: -2.1875rem;
+}
+#highlights p{
+    font-size: 1.125rem;
+}
+/* RESPONSIVE */
 @media screen and (min-width:768px) {
     #highlights .col{
         width: calc(100% / 3);
@@ -18,6 +51,19 @@
     #highlights .col:first-child{
         width: calc((100% / 3)*2);
     }
+}
+@media screen and (min-width:992px) {
+    .demo{
+        display: flex;
+        text-align: left;
+    }
+    .card.demo div:first-child{
+        width:70%;
+    }
+    .card.demo div:last-child{
+        align-self: flex-end;
+    }
+
 }
 /* sezione STRATEGIC */
 #strategic{
@@ -35,6 +81,7 @@
 #strategic .col-right{
     height: 300px;
 }
+/* RESPONSIVE */
 @media screen and (min-width:992px) {
     #strategic .col-left{
         width: 50%;
@@ -79,6 +126,7 @@
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
 }
+/* RESPONSIVE */
 @media screen and (min-width:768px) {
     #benefits .card{
         width: 50%;
@@ -98,6 +146,7 @@
     padding: 1.25rem;
     border: 2px dashed;
 }
+/* RESPONSIVE */
 @media screen and (min-width:768px) {
     #about-us .left-text{
         width: 60%;
