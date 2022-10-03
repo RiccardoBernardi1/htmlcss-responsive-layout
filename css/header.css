@@ -1,19 +1,44 @@
 header{
     background-color: var(--second-color);
     color: white;
-    padding: 15px 0;
+    padding: .9375rem 0;
 }
 .menu{
     color: inherit;
+    border: none;
+    background-color: transparent;
+    font-size: 2.1875rem;
+    cursor: pointer;
+}
+/* navigazione */
+nav{
+    display: none;
 }
 .list-inline{
     list-style: none;
-    display: none;
+    display: flex;
+    align-items:center ;
+    height: 100%;
 }
+.list-inline li a{
+    text-decoration: none;
+    color: inherit;
+}
+.list-inline li{
+    padding: .75rem 1.25rem ;
+}
+.list-inline li:last-child{
+    color: black;
+    background-color: white;
+    border-radius: 2.5rem;
+}
+
 /* RESPONSIVE */
 @media screen and (min-width:992px) {
-    .menu{display: none;}
-    .list-inline{
-        display: flex;
+    .menu{
+        display: none;
+    }
+    nav{
+        display: block;
     }
 }
