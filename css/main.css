@@ -106,3 +106,21 @@
         width: 35%;
     }
 }
+/* sezione GET STARTED */
+#get-started{
+    background-color: var(--first-color);
+    color: white;
+}
+.container-small{
+    max-width: 600px;
+    margin:auto;
+    text-align: center;
+}
+.container-small>*{
+    margin-top: 1.875rem;
+}
+.container-small div:first-of-type{
+    color: #FDC15F;
+    font-size:  5rem;
+    margin: 2.5rem;
+}
