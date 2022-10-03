@@ -1,0 +1,11 @@
+/* COMMON */
+.container {
+    max-width: 68.75rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin: auto;
+}
+.flex-between{
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,19 @@
+header{
+    background-color: var(--second-color);
+    color: white;
+    padding: 15px 0;
+}
+.menu{
+    color: inherit;
+}
+.list-inline{
+    list-style: none;
+    display: none;
+}
+/* RESPONSIVE */
+@media screen and (min-width:992px) {
+    .menu{display: none;}
+    .list-inline{
+        display: flex;
+    }
+}
