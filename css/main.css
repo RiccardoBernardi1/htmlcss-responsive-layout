@@ -123,18 +123,52 @@
     }
 }
 /* sezione PARTNERS */
+#partners{
+    text-align: center;
+    font-size: 1.25rem;
+}
 #partners h2{
     color: var(--first-color);
+    font-size: 1.875rem;
+    margin: 2.5rem 0;
+}
+#partners h3{
+    font-weight: 400;
+}
+.partners-text{
+    padding-bottom: 1.25rem;
 }
 #partners .card{
     background-color: var(--first-color);
-    margin-top: 1.875rem;
+    margin-top: 1.875rem ;
+    color: white;
 }
-.cards-text{
-    text-align: center;
+.card-text p {
+    margin-bottom: 1.875rem;
 }
-.cards-text>*{
-    margin-bottom: 2.8125rem;
+.card-text span{
+    font-weight: bold;
+}
+.img-card{   
+    width: 12.5rem;
+    height: 12.5rem;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 1.25rem;
+}
+/* RESPONSIVE */
+@media screen and (min-width:768px) {
+    #partners .card {
+        display: flex;
+        align-items: center;
+    }
+    .img-card{
+        margin-right: 1.875rem;
+    }
+    .card-text{
+        text-align: left;
+    }
 }
 /* sezione BENEFITS */
 #benefits{
