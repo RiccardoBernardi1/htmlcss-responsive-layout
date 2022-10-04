@@ -286,20 +286,41 @@
 #get-started{
     background-color: var(--first-color);
     color: white;
-}
-.container-small{
-    max-width: 600px;
-    margin:auto;
+    padding: 3.75rem 2.1875rem 3.125rem ;
     text-align: center;
+    font-size: 1.1875rem;
 }
-.container-small>*{
-    margin-top: 1.875rem;
-}
-.container-small div:first-of-type{
+#get-started h3{
     color: #FDC15F;
-    font-size:  5rem;
-    margin: 2.5rem;
+    font-size: 3.4375rem;
+    margin-bottom: 2.8125rem;
 }
-#get-started a{
+#get-started div a{
     color: inherit;
+}
+#get-started h2{
+    font-size: 1.875rem;
+    margin: 1.875rem 0 3.125rem;
+}
+#get-started h4{
+    font-size: 1.25rem;
+    font-weight: normal;
+}
+#get-started p{
+    margin-bottom: 5rem;
+    max-width: 29.375rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+#get-started div{
+    margin-top: 3.75rem;
+}
+/* RESPONSIVE */
+@media screen and (min-width:768px) {
+    #get-started h3{
+        font-size: 4.6875rem;
+    }
+    #get-started h2{
+        font-size: 2.5rem;
+    }
 }

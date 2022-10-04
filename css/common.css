@@ -33,10 +33,19 @@ body{
 .first-color-btn{
     background-color: var(--first-color);
 }
+.white-btn{
+    background-color: white;
+}
 .linkedin-btn{
     color:white;
     padding: .3125rem .625rem;
 }
 .link-btn{
     text-decoration: none;
+}
+.btn-xl{
+    padding: 1.25rem 5rem;
+}
+.btn-purple-text{
+    color: #9792E4;
 }
