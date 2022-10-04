@@ -1,5 +1,5 @@
 /* sezione HIGHLIGHTS */
-#highlights .col:not(:first-of-type){
+#highlights .col{
     width: 100%;
     padding: .625rem;    
     text-align: center;
@@ -14,6 +14,9 @@
     height: 100%;
     border-radius: 1.25rem;
     padding: 2.1875rem ;
+}
+.demo{
+    text-align: left;
 }
 #highlights .card > i{
     color:var(--second-color) ;
@@ -52,7 +55,8 @@
         width: calc((100% / 3)*2);
     }
     #highlights .card img{
-        margin-left: 1.25rem;
+        margin-left: .9375rem;
+        align-self: flex-end;
     }
 }
 @media screen and (min-width:992px) {
@@ -61,10 +65,13 @@
         text-align: left;
     }
     .card.demo div:first-child{
-        width:70%;
+        width:60%;
     }
-    .card.demo div:last-child{
-        align-self: flex-end;
+    #highlights .card img{
+        height: 100%;
+        margin-left: 4.375rem;
+        margin-right: 3.125rem;
+        flex-grow: 1;
     }
 }
 /* sezione STRATEGIC */
