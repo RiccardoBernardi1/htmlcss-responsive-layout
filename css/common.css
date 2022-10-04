@@ -29,6 +29,7 @@ body{
     padding: .625rem 3.125rem;
     color: white;
     font-weight: bold;
+    font-size: 1.25rem;
 }
 .first-color-btn{
     background-color: var(--first-color);

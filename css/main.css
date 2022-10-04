@@ -1,5 +1,5 @@
 /* sezione HIGHLIGHTS */
-#highlights .col{
+#highlights .col:not(:first-of-type){
     width: 100%;
     padding: .625rem;    
     text-align: center;
@@ -33,15 +33,15 @@
     padding-bottom: 3.125rem ;
 }
 #highlights .card img{
-    margin-top: 3.125rem;
-    width: 85%;
     display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: -2.1875rem;
+    margin: 3.125rem auto -2.1875rem;
+    max-width: 14.375rem;
 }
 #highlights p{
     font-size: 1.125rem;
+}
+#highlights col:first-child{
+    text-align: left;
 }
 /* RESPONSIVE */
 @media screen and (min-width:768px) {
@@ -50,6 +50,9 @@
     }
     #highlights .col:first-child{
         width: calc((100% / 3)*2);
+    }
+    #highlights .card img{
+        margin-left: 1.25rem;
     }
 }
 @media screen and (min-width:992px) {
