@@ -8,6 +8,11 @@ section{
     padding-right: 1.25rem;
     margin: auto;
 }
+/* TYPOGRAPHY */
+body{
+    font-family: 'PT Sans', sans-serif;
+}
+/* FLEX */
 .flex-between{
     display: flex;
     justify-content: space-between;
@@ -21,7 +26,10 @@ section{
     border-radius: 3.125rem;
 }
 .primary-btn{
-    padding: .9375rem 2.8125rem;
+    padding: .625rem 3.125rem;
     color: white;
     font-weight: bold;
+}
+.first-color-btn{
+    background-color: var(--first-color);
 }

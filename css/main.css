@@ -178,27 +178,44 @@
     color: white;
     text-align: center;
     margin-bottom: 3.75rem;
+    font-size: 2.1875rem;
 }
-#benefits .card{
-    width: 100%;
-    height: 400px;
+.benefit-card{
     background-color: white;
     color: var(--first-color);
-    padding: .9375rem;
-    border: 15px dashed;
+    border-radius: 1.25rem ;
+    padding: 2.8125rem 2.1875rem;
+}
+.benefit-card p{ 
+    color: black;
+    margin: 1.875rem 0 2.5rem;
+}
+.benefit-card h3{
+    margin-bottom: 2.5rem;
+    font-size: 2.8125rem;
+}
+.benefit-card h4{
+    font-size: 1.6875rem;
 }
 #benefits .row{
     margin-left: -0.9375rem;
     margin-right: -0.9375rem;
 }
+.benefit-col{
+    width: 100%;
+    padding: .9375rem;
+}
+.benefit-card a{
+    text-decoration: none;
+}
 /* RESPONSIVE */
 @media screen and (min-width:768px) {
-    #benefits .card{
+    .benefit-col{
         width: 50%;
     }
 }
 @media screen and (min-width:992px) {
-    #benefits .card{
+    .benefit-col{
         width: calc(100% / 3);
     }
 }
