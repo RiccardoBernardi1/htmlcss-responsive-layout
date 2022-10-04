@@ -33,3 +33,10 @@ body{
 .first-color-btn{
     background-color: var(--first-color);
 }
+.linkedin-btn{
+    color:white;
+    padding: .3125rem .625rem;
+}
+.link-btn{
+    text-decoration: none;
+}
